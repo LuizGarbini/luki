@@ -76,6 +76,7 @@ body {
 #hero #quote h6 {
   color: var(--amarelin);
   white-space: nowrap;
+  font-size: px;
 }
 
 #hero #quote h2 {
