@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 70px;
+  font-size: 67px;
 }
 #projects div h3:nth-child(even) {
   transform: translateX(50%);
