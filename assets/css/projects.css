@@ -1,0 +1,11 @@
+#projects {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+}
+#projects div h3 {
+  margin-bottom: 8px;
+}
