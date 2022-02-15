@@ -16,18 +16,33 @@
 
   #section2 {
     display: flex;
-    max-width: 1920px;
+    width: 100%;
     margin: 0 auto;
     height: 100vh;
-    max-height: 1192px;
+    max-height: 771px;
+    align-items: center;
+    max-width: 1980px;
   }
 
-  #Universityimage {
-    margin-top:140px ;
-  }
-
-  #University h1 {
+  #section2 h2 {
+    padding-left: 35px;
     font-size: 40px;
-    font-weight: 600;
   }
-  
+
+  #section2 p {
+    padding-left: 217px;
+    padding-top: 65px;
+    max-width: 519px;
+    font-size: 25px;
+  }
+
+  #section2 h3 {
+    padding: 0%;
+    text-align: end;
+  }
+
+  #section2 h4 {
+    text-align: end;
+    color: #f7b450;
+  }
+
