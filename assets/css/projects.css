@@ -5,19 +5,29 @@
   align-items: center;
   justify-content: center;
   font-size: 67px;
+  text-decoration: none;
+  font-style: normal;
+  max-height: 1080px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
-#projects div h3:nth-child(even) {
+#projects div a:nth-child(even) {
   transform: translateX(50%);
 }
 
-#projects div h3:nth-child(odd) {
+#projects div a:nth-child(odd) {
   transform: translateX(-50%);
 }
 
-#projects div h3:hover {
+#projects div a:hover {
   color: var(--amarelin);
 }
 
-#projects div h3 {
+#projects div a {
   transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  display: block;
 }
