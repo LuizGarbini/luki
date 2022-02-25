@@ -1,0 +1,18 @@
+#section3 {
+  display: flex;
+}
+
+#section3 h2 {
+  padding-left: 35px;
+  font-weight: 87px;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 48, 76px;
+}
+
+#saguao {
+  width: 667px;
+  height: 588px;
+  left: 100px;
+  top: 2939px;
+}
