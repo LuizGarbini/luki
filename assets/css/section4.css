@@ -1,60 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
-    --amarelin: #f7b450; 
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    font-family: "Montserrat", sans-serif;
-  }
+  --amarelin: #f7b450;
+}
 
-  #section4 {
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    height: 100vh;
-    max-height: 641px;
-    max-width: 1980px;
-    align-items: center;
-    padding: 0;
-    justify-content: flex-end;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
 
-  #section4 h2 {
-    padding-right: 50px;
-    font-size: 40px;
-    text-align: right;
+body {
+  font-family: "Montserrat", sans-serif;
+}
 
-    
-  }
+#section4 {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  max-height: 800px;
+  max-width: 1980px;
+  align-items: center;
+  padding: 0;
+  justify-content: flex-end;
+}
 
-  #section4 p {
-    padding-right   : 208px;
-    padding-top: 65px;
-    max-width: 519px;
-    font-size: 25px;
-    text-align: left;
-  }
+#section4 h2 {
+  padding-right: 50px;
+  font-size: 40px;
+  text-align: right;
+}
 
-  #section4 h3 {
-    padding: 0%;
-    text-align: initial;
-  }
+#section4 p {
+  padding-right: 208px;
+  padding-top: 65px;
+  max-width: 519px;
+  font-size: 25px;
+  text-align: left;
+}
 
-  #section4 h4 {
-    text-align: initial;
-    color: #f7b450;
-  }
+#section4 h3 {
+  padding: 0%;
+  text-align: initial;
+}
 
-  #section escadinha {
-      padding-right: 0;
-  }
+#section4 h4 {
+  text-align: initial;
+  color: #f7b450;
+}
 
-
-   
+#section escadinha {
+  padding-right: 0;
+}
