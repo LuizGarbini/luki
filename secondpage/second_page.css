@@ -1,9 +1,25 @@
-* {
-  padding: 0;
+:root {
+  --amarelin: #f7b450;
 }
 
-#PaulistaLibrary {
-  height: 50rem;
-  width: 102.813rem;
-  padding: 0 0;
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  display: flex;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#Section1_2 {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#PaulistanLibrary {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
