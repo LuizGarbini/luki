@@ -12,29 +12,35 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-#Section1_2 {
-  margin: 0;
-  padding: 0;
+#section1_2 {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  max-height: 771px;
+  align-items: center;
+  max-width: 1980px;
 }
-#title {
+
+#section1_2 h2 {
   padding-top: 35px;
   padding-left: 100px;
   font-size: 40px;
 }
 
-#sp {
+#section1_2 h3 {
   margin-top: 10px;
-  margin-left: 550px;
   color: #f7b450;
   font-size: 25px;
+  padding-left: 451px;
 }
 
-#section1 header nav {
+#section1_2 header nav {
   display: flex;
   gap: 63px;
+  padding-left: 100px;
 }
 
-#section1 header nav a {
+#section1_2 header nav a {
   text-decoration: none;
   font-style: normal;
   font-weight: 600;
@@ -43,4 +49,18 @@ body {
   transition: color 0.5s ease-in-out;
 
   color: #121111;
+}
+
+#section1_2 header nav a:hover {
+  color: var(--amarelin);
+}
+
+#section1_2 header {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 52px;
+  padding-left: 100px;
+  padding-right: 68px;
+  width: 50%;
+  padding-bottom: 50px;
 }
