@@ -1,6 +1,7 @@
 #section_1 #section_1_banner {
   width: 85%;
-  max-height: 80vh;
+  height: 80vh;
+  max-height: 700px;
   overflow: hidden;
 }
 
