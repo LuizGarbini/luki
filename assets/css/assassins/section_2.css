@@ -1,0 +1,37 @@
+#section_2 {
+  margin-top: 208px;
+  margin-bottom: 360px;
+  display: flex;
+  justify-content: space-between;
+  gap: 118px;
+}
+
+#section_2_hero {
+  max-width: 500px;
+  margin-left: auto;
+  text-align: end;
+}
+
+#section_2_hero-title {
+  font-size: 3rem;
+}
+
+#section_2_hero-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#section_2_image {
+  width: 802px;
+  height: 800px;
+  overflow: hidden;
+}
+
+#section_2_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
