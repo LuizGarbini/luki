@@ -93,6 +93,7 @@ body {
   color: var(--amarelin);
 }
 
-#banner {
-  height: 100%;
+#banner_video {
+  max-width: 1080px;
+  max-height: 980px;
 }
