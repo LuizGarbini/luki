@@ -104,7 +104,7 @@ body {
   text-align: center;
 }
 
-#banner_video {
+#banner {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -116,4 +116,42 @@ body {
   background: no-repeat;
   background-size: cover;
   filter: brightness(50%);
+}
+
+#search {
+  padding: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  font-weight: 500px;
+}
+
+#searchwrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.btn {
+  padding-top: 10px;
+  width: 75%;
+  margin: 10px 95px;
+  border-radius: 50px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(to right, #fff, orange);
+  cursor: pointer;
+  height: 70%;
+  text-align: center;
+  outline: none;
 }
