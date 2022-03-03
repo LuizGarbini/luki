@@ -49,7 +49,7 @@ body {
   line-height: 18px;
   transition: color 0.5s ease-in-out;
 
-  color: #121111;
+  color: aliceblue;
 }
 
 #section1 header nav a:hover {
@@ -64,6 +64,14 @@ body {
   gap: 10px;
   width: 100%;
   max-width: 810px;
+}
+
+#search input {
+  display: flex;
+  width: 400px;
+  height: 50px;
+  padding-left: 200px;
+  border-radius: 5px;
 }
 
 #hero #quote {
@@ -82,17 +90,30 @@ body {
 #hero #quote h2 {
   margin-left: 100px;
   text-align: right;
+  color: aliceblue;
 }
 
 #hero h2 {
   font-size: 40px;
   font-weight: 600;
+  color: aliceblue;
 }
 
 #hero span {
   color: var(--amarelin);
+  text-align: center;
 }
 
 #banner {
-  height: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  background: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
 }
