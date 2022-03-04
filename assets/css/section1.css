@@ -1,5 +1,40 @@
 :root {
   --amarelin: #f7b450;
+  --background: #121214;
+  --shape: #202024;
+  --gray: #e1e1e6;
+  --text: #a8a8b3;
+  --support: #737380;
+  --title: #ffffff;
+  --subtitle: #9e9e9e;
+  --primary: #8257e5;
+  --primary-darker: #28203e;
+  --primary-hover: #9466ff;
+  --primary-border: #6833e4;
+  --primary-shape: #734bd1;
+  --defeat: #ab2a30;
+  --win: #237563;
+  --yellow: #ffcd1e;
+  --green: #8cc84b;
+  --green-low: #1c2a24;
+  --green-darker: #0f3924;
+  --shape-dark: #3c3c42;
+  --shape-hover: #29292e;
+  --icons: #41414d;
+  --borders: #323238;
+  --iron: #696362;
+  --silver: #859ba2;
+  --gold: #ebd061;
+  --platinum: #4e9996;
+  --diamond: #576bce;
+  --master: #9d48e0;
+  --grandmaster: #d94444;
+  --challenger: #f4c874;
+  --damage: #db3a2c;
+  --defense: #8cc84b;
+  --magic: #a32ddf;
+  --difficulty: #2ac7e3;
+  --white: #ffffff;
 }
 
 * {
