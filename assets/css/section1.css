@@ -84,7 +84,7 @@ body {
   line-height: 18px;
   transition: color 0.5s ease-in-out;
 
-  color: #121111;
+  color: aliceblue;
 }
 
 #section1 header nav a:hover {
@@ -99,6 +99,14 @@ body {
   gap: 10px;
   width: 100%;
   max-width: 810px;
+}
+
+#search input {
+  display: flex;
+  width: 400px;
+  height: 50px;
+  padding-left: 200px;
+  border-radius: 5px;
 }
 
 #hero #quote {
@@ -117,18 +125,68 @@ body {
 #hero #quote h2 {
   margin-left: 100px;
   text-align: right;
+  color: aliceblue;
 }
 
 #hero h2 {
   font-size: 40px;
   font-weight: 600;
+  color: aliceblue;
 }
 
 #hero span {
   color: var(--amarelin);
+  text-align: center;
 }
 
-#banner_video {
-  max-width: 1080px;
-  max-height: 980px;
+#banner {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  background: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+}
+
+#search {
+  padding: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  font-weight: 500px;
+}
+
+#searchwrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.btn {
+  padding-top: 10px;
+  width: 75%;
+  margin: 10px 95px;
+  border-radius: 50px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(to right, #fff, orange);
+  cursor: pointer;
+  height: 70%;
+  text-align: center;
+  outline: none;
 }
