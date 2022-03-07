@@ -1,44 +1,15 @@
-:root {
-  --amarelin: #f7b450;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-}
-
-html {
-  overflow: hidden;
-  height: 100%;
-}
-
-body {
-  overflow-x: hidden;
-  overflow-y: scroll;
-  height: 100%;
-  perspective: 1px;
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  background: #1f1f1f;
-  padding: 0;
-  margin: 0;
-}
-
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 20px 10%;
-  width: 100%;
+  background-color: #7e7e7e56;
+  backdrop-filter: blur(10px);
   position: fixed;
-  z-index: 40;
   top: 0;
   left: 0;
-  background: rgba(130, 130, 130, 0.14);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4.7px);
-  -webkit-backdrop-filter: blur(4.7px);
-  border: 1px solid rgba(130, 130, 130, 0.24);
+  width: 100%;
+  z-index: 50;
 }
 
 .logo {
@@ -156,16 +127,16 @@ header {
   }
 }
 
-#logo {
-  margin-right: 141px;
+.banner-wrapper {
+  width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #24252a;
+  background-attachment: fixed;
 }
 
 #banner {
-  min-width: 100%;
-  min-height: 120px;
-  width: 100%;
-  filter: brightness(77%);
-  background-attachment: fixed;
-  background-size: cover;
-  background: url(./video/banner.mp4);
+  position: absolute;
+  top: 0;
 }
