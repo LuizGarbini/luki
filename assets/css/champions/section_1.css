@@ -1,0 +1,72 @@
+:root {
+  --amarelin: #f7b450;
+}
+
+#section_1 #section_1_banner {
+  width: 85%;
+  height: 80vh;
+  max-height: 700px;
+  overflow: hidden;
+}
+
+#section_1 #section_1_banner img {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+#section_1 #section_1_banner img:hover {
+  filter: brightness(0.5);
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #24252a;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: var(--amarelin);
+  text-decoration: none;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: var(--amarelin);
+}
+
+.cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: var(--amarelin);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: var(--amarelin);
+}
