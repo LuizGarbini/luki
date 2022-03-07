@@ -52,6 +52,7 @@ img#abt_img {
   border-radius: 0.5rem;
 }
 
+<<<<<<< HEAD
 #section2 h2 {
   text-align: left;
   font-size: 3rem;
@@ -65,4 +66,26 @@ img#abt_img {
   max-width: 519px;
   font-size: 2rem;
   text-align: left;
+=======
+#section2 about {
+  font-size: 70px;
+  margin-top: 1rem;
+  text-align: center;
+  justify-items: center;
+}
+
+#section2 p {
+  font-size: 25px;
+  text-align: left;
+  justify-items: center;
+}
+
+#section2 h3 {
+  padding: 0;
+}
+
+#section2 h4 {
+  text-align: end;
+  color: #f7b450;
+>>>>>>> 983578cd5143b4ac59bd77d7b7b44c24faf40204
 }
