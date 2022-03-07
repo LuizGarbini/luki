@@ -1,35 +1,15 @@
-:root {
-  --amarelin: #f7b450;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-}
-
-html {
-  overflow: hidden;
-  height: 100%;
-}
-
-body {
-  overflow-x: hidden;
-  overflow-y: scroll;
-  height: 100%;
-  perspective: 54px;
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  background: #fff;
-  padding: 0;
-  margin: 0;
-}
-
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 20px 10%;
-  background-color: #24252a;
+  background-color: #7e7e7e56;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
 }
 
 .logo {
@@ -231,12 +211,16 @@ header {
   text-align: center;
 }
 
+.banner-wrapper {
+  width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #24252a;
+  background-attachment: fixed;
+}
+
 #banner {
-  min-width: 100%;
-  min-height: 100%;
-  width: 1920px;
-  height: auto;
-  background: repeat;
-  background-size: auto;
-  filter: brightness(77%);
+  position: absolute;
+  top: 0;
 }
