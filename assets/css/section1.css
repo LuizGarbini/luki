@@ -22,7 +22,6 @@ header {
 }
 
 .nav__links a,
-.cta,
 .overlay__content a {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -42,26 +41,11 @@ header {
   color: var(--amarelin);
 }
 
-.cta {
-  margin-left: 20px;
-  padding: 9px 25px;
-  background-color: var(--amarelin);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-.cta:hover {
-  background-color: var(--amarelin);
-}
-
+<<<<<<< HEAD
 /* Mobile Nav */
 
-.menu {
-  display: none;
-}
-
+=======
+>>>>>>> 983578cd5143b4ac59bd77d7b7b44c24faf40204
 .overlay {
   height: 100%;
   width: 0;
@@ -134,6 +118,7 @@ header {
   position: relative;
   background-color: #24252a;
   background-attachment: fixed;
+  filter: brightness(90%);
 }
 
 #banner {
