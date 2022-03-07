@@ -9,21 +9,21 @@
   text-align: center;
 }
 
-#section2 h2 {
-  font-size: 40px;
+#section2 about {
+  font-size: 70px;
+  margin-top: 1rem;
   text-align: center;
+  justify-items: center;
 }
 
 #section2 p {
-  padding-left: 217px;
-  padding-top: 65px;
-  max-width: 519px;
   font-size: 25px;
+  text-align: left;
+  justify-items: center;
 }
 
 #section2 h3 {
-  padding: 0%;
-  text-align: end;
+  padding: 0;
 }
 
 #section2 h4 {
