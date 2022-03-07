@@ -42,25 +42,7 @@ header {
   color: var(--amarelin);
 }
 
-.cta {
-  margin-left: 20px;
-  padding: 9px 25px;
-  background-color: var(--amarelin);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-.cta:hover {
-  background-color: var(--amarelin);
-}
-
 /* Mobile Nav */
-
-.menu {
-  display: none;
-}
 
 .overlay {
   height: 100%;
