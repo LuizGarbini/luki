@@ -1,0 +1,48 @@
+:root {
+  --amarelin: #f7b450;
+}
+
+#section_1 #section_1_banner {
+  width: 85%;
+  height: 80vh;
+  max-height: 700px;
+  overflow: hidden;
+}
+
+#section_1 #section_1_banner img {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+#section_1 #section_1_banner img:hover {
+  filter: brightness(0.5);
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+
+#section_1_infos {
+  margin-top: 35px;
+  margin-left: 100px;
+  color: #fff;
+}
+
+#section_1 #section_1_title {
+  font-size: 3rem;
+  color: #fff;
+}
+
+#section_1 #section_1_subtitle {
+  font-size: 1.5rem;
+  margin-left: 50px;
+  color: #f7b450;
+  font-weight: 300;
+  font-style: italic;
+}

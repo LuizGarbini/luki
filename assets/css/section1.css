@@ -17,9 +17,9 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   height: 100%;
-  perspective: 54px;
+  perspective: 1px;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  background: #fff;
+  background: #1f1f1f;
   padding: 0;
   margin: 0;
 }
@@ -29,7 +29,16 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 20px 10%;
-  background-color: #24252a;
+  width: 100%;
+  position: fixed;
+  z-index: 40;
+  top: 0;
+  left: 0;
+  background: rgba(130, 130, 130, 0.14);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
+  border: 1px solid rgba(130, 130, 130, 0.24);
 }
 
 .logo {
@@ -147,96 +156,16 @@ header {
   }
 }
 
-#section1 {
-  display: flex;
-  max-width: 1920px;
-  margin: 0 auto;
-  height: 100vh;
-  max-height: 980px;
-}
-
-#section1 > div {
-  padding-top: 52px;
-  padding-left: 100px;
-  padding-right: 68px;
-  width: 50%;
-}
-
-#section1 header {
-  display: flex;
-  align-items: flex-end;
-}
-
 #logo {
   margin-right: 141px;
 }
 
-#section1 header nav {
-  display: flex;
-  gap: 63px;
-}
-
-#section1 header nav a {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 18px;
-  transition: color 0.5s ease-in-out;
-
-  color: #fff;
-}
-
-#section1 header nav a:hover {
-  color: var(--amarelin);
-}
-
-#hero {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-  width: 100%;
-  max-width: 810px;
-}
-
-#hero #quote {
-  display: flex;
-  align-items: flex-end;
-  width: 100%;
-  justify-content: space-between;
-}
-
-#hero #quote h6 {
-  color: var(--amarelin);
-  white-space: nowrap;
-  font-size: px;
-}
-
-#hero #quote h2 {
-  margin-left: 100px;
-  text-align: right;
-  color: #fff;
-}
-
-#hero h2 {
-  font-size: 40px;
-  font-weight: 600;
-  color: #fff;
-}
-
-#hero span {
-  color: var(--amarelin);
-  text-align: center;
-}
-
 #banner {
   min-width: 100%;
-  min-height: 100%;
-  width: 1920px;
-  height: auto;
-  background: repeat;
-  background-size: auto;
+  min-height: 120px;
+  width: 100%;
   filter: brightness(77%);
+  background-attachment: fixed;
+  background-size: cover;
+  background: url(./video/banner.mp4);
 }
