@@ -24,7 +24,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 20px 10%;
-  background-color: #7e7e7e56;
+  background-color: black;
   backdrop-filter: blur(10px);
   position: fixed;
   top: 0;
