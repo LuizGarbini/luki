@@ -126,3 +126,9 @@ header {
   -webkit-transition: opacity 0.5s ease-out;
   -o-transition: opacity 0.5s ease-out;
 }
+
+#footer {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
