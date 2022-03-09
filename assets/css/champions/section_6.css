@@ -7,7 +7,7 @@
 
 #section_6_title {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 49px;
   margin-bottom: 32px;
 }
@@ -62,5 +62,23 @@
 .section_6_grid-item-title {
   margin-top: 4px;
   text-align: end;
-  font-weight: 300;
+}
+
+@media (max-width: 800px) {
+  #section_6_grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .section_6_grid-item-title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .section_6_grid-item {
+    background: none;
+  }
 }
