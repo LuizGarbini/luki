@@ -25,7 +25,7 @@
   align-items: center;
   max-width: 123.75rem; /* 123.75rem = 1980px */
   text-align: center;
-  padding: 4rem 0 2rem;
+  padding: 0;
   justify-content: center;
   text-decoration: none;
   font-style: normal;
@@ -50,18 +50,11 @@ img#abt_img {
   font-style: bold;
 }
 
-h4 {
-  text-align: center;
-  padding-top: 0;
-  margin-top: 1.5rem;
-  color: var(--amarelin);
-}
-
 #section2 p {
-  padding-top: 65px;
+  padding-top: 2rem;
   max-width: 519px;
   height: 100%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: left;
 }
 
@@ -70,7 +63,17 @@ h4 {
     text-align: center;
     flex-direction: column;
     align-items: center;
-    padding-left: 4rem;
-    text-align: justify;
+  }
+}
+
+@media (max-width: 800px) {
+  #section2 h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  #section2 p {
+    text-align: center;
   }
 }

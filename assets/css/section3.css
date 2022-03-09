@@ -22,18 +22,17 @@ body {
 }
 
 .pessoas {
-  display: grid;
-  padding-top: 10rem;
-  grid-template-columns: repeat(7, 1fr);
+  padding-top: 3rem;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  display: grid;
 }
 
 .pessoa {
-  display: flex;
+  display: grid;
   align-items: center;
-  height: 50%;
+  height: 100%;
   margin: 0 auto;
-  width: 50%;
 }
 
 .pessoa_imagem {
@@ -42,9 +41,21 @@ body {
 }
 
 .pessoa_imagem {
-  width: 256px;
-  height: 256px;
+  width: 150px;
+  height: 150px;
   overflow: hidden;
   position: relative;
   border-radius: 50%;
+}
+
+.nome_pessoa {
+  text-align: center;
+  color: #f7b450;
+  font-size: 2rem;
+}
+
+@media (max-width: 800px) {
+  .pessoas {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
