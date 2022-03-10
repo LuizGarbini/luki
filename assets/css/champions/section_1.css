@@ -33,9 +33,3 @@ header {
   z-index: 50;
   font-style: none;
 }
-
-@media (max-width: 800px) {
-  #section_1_infos {
-    margin-left: 32px;
-  }
-}
