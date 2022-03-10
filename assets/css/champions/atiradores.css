@@ -1,6 +1,6 @@
 #section_1 #section_1_banner {
   width: 85%;
-  height: 80vh;
+  height: 80%;
   max-height: 700px;
   overflow: hidden;
 }
@@ -19,14 +19,14 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px 10%;
+  padding: 1.25rem 10%;
   background: rgba(0, 0, 0, 0.4);
   width: 100%;
 }
 
 #section_1_infos {
-  margin-top: 35px;
-  margin-left: 100px;
+  margin-top: 2.188rem;
+  margin-left: 32px;
   color: #fff;
 }
 
@@ -37,7 +37,7 @@ header {
 
 #section_1 #section_1_subtitle {
   font-size: 1.5rem;
-  margin-left: 50px;
+  margin-left: 3.125rem;
   color: #f7b450;
   font-weight: 300;
   font-style: italic;

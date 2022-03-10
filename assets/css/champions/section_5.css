@@ -17,7 +17,7 @@
 
 #section_5_grid-item {
   width: 100%;
-  height: 210px;
+  height: 100%;
 }
 
 #section_5_grid-item-image {
@@ -33,15 +33,27 @@
 }
 
 #section_5_grid-item-title {
-  font-size: 25px;
+  font-size: 1.56rem;
   line-height: 30px;
   margin-top: 1rem;
 }
 
 @media (max-width: 800px) {
+  #section_5 {
+    padding: 0 32px;
+  }
   #section_5_grid {
     display: flex;
     flex-direction: column;
     gap: 4rem;
+  }
+  #section_5_grid-item-image {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  }
+
+  #section_5_grid-item-title {
+    text-align: center;
   }
 }

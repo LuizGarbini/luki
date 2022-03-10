@@ -8,8 +8,8 @@
 }
 
 #section_4_image {
-  width: 50%;
-  height: 553px;
+  max-width: 50%;
+  max-height: 50%;
   overflow: hidden;
 }
 
@@ -29,7 +29,7 @@
 }
 
 #section_4_hero-title {
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 49px;
   font-style: italic;
@@ -42,9 +42,27 @@
 
 #section_4_hero-text {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 18px;
 
   color: #f7b450;
   margin-top: 30px;
+}
+
+@media (max-width: 800px) {
+  #section_4 {
+    flex-direction: column-reverse;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  #section_4_image {
+    max-width: 100%;
+    max-height: 50%;
+  }
+  #section_4_hero {
+    padding: 32px;
+  }
+  #section_4_hero-title {
+    text-align: left;
+  }
 }
