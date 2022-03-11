@@ -5,8 +5,8 @@
 }
 
 #section_3_image {
-  width: 50%;
-  height: 416px;
+  max-width: 50%;
+  max-height: 50%;
   overflow: hidden;
 }
 
@@ -23,7 +23,7 @@
 
 #section_3_hero-title {
   font-weight: 400;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 49px;
   font-style: italic;
 }
@@ -40,4 +40,17 @@
 
   color: #f7b450;
   margin-top: 30px;
+}
+
+@media (max-width: 800px) {
+  #section_3 {
+    flex-direction: column;
+  }
+
+  #section_3_image {
+    max-width: 100%;
+  }
+  #section_3_hero {
+    padding: 32px;
+  }
 }

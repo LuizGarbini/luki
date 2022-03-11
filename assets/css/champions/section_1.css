@@ -4,7 +4,7 @@
 
 #section_1 #section_1_banner {
   width: 85%;
-  height: 80vh;
+  height: 80%;
   max-height: 700px;
   overflow: hidden;
 }
@@ -24,11 +24,18 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 20px 10%;
-  background-color: black;
+  background-color: #7e7e7e56;
   backdrop-filter: blur(10px);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 50;
+  font-style: none;
+}
+
+@media (max-width: 800px) {
+  #section_1_infos {
+    margin-left: 32px;
+  }
 }

@@ -82,3 +82,21 @@
     background: none;
   }
 }
+
+@media (max-width: 800px) {
+  #section_6 {
+    padding: 0 32px;
+  }
+  #section_6_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    font-size: 1.56rem;
+  }
+  #section_6_grid-item-title {
+    text-align: center;
+  }
+  .section_6_grid-item-figure img {
+    height: 350px;
+  }
+}
