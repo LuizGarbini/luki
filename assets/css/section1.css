@@ -11,6 +11,25 @@ header {
   width: 100%;
   z-index: 50;
 }
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+header li {
+  font-size: 20px;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 0px 20px;
+  list-style: none;
+  text-align: -webkit-match-parent;
+}
+header li a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
 
 .mobile-menu {
   display: none;
@@ -24,6 +43,13 @@ header {
   background-color: #fff;
   margin: 8px;
   transition: 0.3s;
+}
+.nav-list ul li {
+  padding: 10px 20px;
+  color: #ccc;
+  font-size: 20px;
+  list-style-type: none;
+  cursor: pointer;
 }
 
 @media (max-width: 999px) {
