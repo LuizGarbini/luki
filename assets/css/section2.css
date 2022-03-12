@@ -28,6 +28,7 @@
   padding: 1.25rem 10%;
   text-decoration: none;
   font-style: normal;
+  justify-content: space-between;
 }
 
 #about {
@@ -36,9 +37,9 @@
 }
 
 img#abt_img {
-  width: 85%;
+  width: 50%;
   border-radius: 0.5rem;
-  height: 85%;
+  align-items: right;
 }
 
 #section2 h2 {
@@ -59,9 +60,11 @@ img#abt_img {
 
 @media (max-width: 800px) {
   #section2 {
-    text-align: center;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    justify-content: center;
   }
 }
 
@@ -74,5 +77,12 @@ img#abt_img {
 @media (max-width: 800px) {
   #section2 p {
     text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  img#abt_img {
+    width: 75%;
+    padding-top: 4rem;
   }
 }
