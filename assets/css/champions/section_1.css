@@ -18,6 +18,7 @@
 #section_1 #section_1_banner img:hover {
   filter: brightness(0.5);
 }
+<<<<<<< HEAD
 
 header {
   display: flex;
@@ -33,3 +34,5 @@ header {
   z-index: 50;
   font-style: none;
 }
+=======
+>>>>>>> 1bf753ea3429c179711dd260fb456c263ccceb5a
