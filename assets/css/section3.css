@@ -23,98 +23,43 @@ body {
 .pessoas {
   padding-top: 3rem;
   grid-template-columns: repeat(2, 1fr);
-  gap: -5rem;
+  gap: 5rem;
   display: grid;
+  width: 100%;
+  height: 100%;
+  padding: 1.25rem 10%;
+  justify-content: space-between;
+}
+
+.pessoa {
+  display: flex;
+  width: 450px;
+  height: 250px;
+  background: gray;
+}
+
+.text_profile {
+  text-align: left;
+}
+
+#img_pessoa1 {
+  border-radius: 50%;
+  width: 85%;
+  text-align: left;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  border: 8rem;
+  border-color: #f7b450;
 }
 
 @media (max-width: 800px) {
   .pessoas {
     grid-template-columns: repeat(1, 1fr);
   }
-}
-
-.cards {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.card {
-  max-width: 30%;
-  margin: 150px auto 0;
-  background-color: #42515a;
-  box-shadow: 0 10px 90px #00000024;
-  text-align: center;
-  font-size: 20px;
-  border-radius: 15px;
-}
-
-.card .card-header {
-  position: relative;
-  height: 48px;
-}
-
-.card .card-header .profile-img {
-  width: 130px;
-  height: 130px;
-  border-radius: 1000px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 0 20px #00000033;
-}
-
-.card .card-body {
-  padding: 10px 40px;
-  max-width: 100%;
-  text-align: center;
-}
-
-.card .card-body .name {
-  margin-top: 30px;
-  font-size: 22px;
-  font-weight: bold;
-  color: #f7b450;
-}
-
-.card .card-body .mail {
-  font-size: 14px;
-  color: #c2bdbd;
-}
-
-.card .card-body .job {
-  margin-top: 10px;
-  font-size: 14px;
-}
-
-.card .social-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.card .social-links .social-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  width: 40px;
-  background-color: #f7b450;
-  color: #ffffff;
-  font-size: 20px;
-  border-radius: 100%;
-  text-decoration: none;
-  margin: 0 13px 30px 0;
-}
-
-.card .social-links .social-icon:last-child {
-  margin-right: 0;
-}
-
-@media (max-widht: 800px) {
-  .cards {
-    display: flex;
-    flex-direction: column;
+  .pessoa {
+    width: 300px;
   }
 }
