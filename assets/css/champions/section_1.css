@@ -18,24 +18,3 @@
 #section_1 #section_1_banner img:hover {
   filter: brightness(0.5);
 }
-
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 20px 10%;
-  background-color: #7e7e7e56;
-  backdrop-filter: blur(10px);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 50;
-  font-style: none;
-}
-
-@media (max-width: 800px) {
-  #section_1_infos {
-    margin-left: 32px;
-  }
-}
