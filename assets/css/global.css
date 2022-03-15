@@ -8,6 +8,14 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+  background: #1f1f1f;
+  color: #fff;
+}
+
 html {
   @media (max-width: 1080px) {
     font-size: 93.75%; //15px
@@ -130,14 +138,6 @@ header li a:hover {
   }
 }
 
-body {
-  font-family: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  overflow-x: hidden;
-  background: #1f1f1f;
-  color: #fff;
-}
-
 #section-limiter {
   max-width: 1920px;
   margin: 0 auto;
@@ -145,4 +145,15 @@ body {
 
 .logo {
   margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--amarelin);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  filter: brightness(0.8);
 }
